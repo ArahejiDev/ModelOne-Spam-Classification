@@ -98,9 +98,4 @@ Everything you will want to tweak is at the top of `ModelOne.py`:
 - Ask all the questions you need in one request: the text is read once, so a batch of questions is cheaper than one request each.
 - Small models may perform differently depending on the language of the email. Test both.
 
-## Limits (free plan)
-
-- 60 requests per minute per key
-- 100M System One tokens per account
-
 
