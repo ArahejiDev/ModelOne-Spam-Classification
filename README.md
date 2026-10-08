@@ -1,4 +1,4 @@
-# ModelOne: phishing email triage with System One models
+# Phishing email triage with System One models
 
 Small Python script that sends an email to several **System One** models served by [Codiv](https://codiv.ai) and compares how each one answers.
 
