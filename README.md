@@ -2,7 +2,7 @@
 
 Small Python script that sends an email to several **System One** models served by [Codiv](https://codiv.ai) and compares how each one answers.
 
-System One models are *decision models*, not chat models. They don't write text: you give them a text and a set of typed questions, and they return a probability for each answer in a single pass (milliseconds). This models could be useful whenever you need a quick decision instead of generated text.They answer typed questions (yes/no, pick one, score) in milliseconds, with a probability attached to each answer.That makes them cheap to run at high volume and easy to automate, because you can act on thresholds without parsing any text. They’re not for writing, explaining, or multi-step reasoning, and the small ones should be validated on your own data first.
+System One models are *decision models*, not chat models. They don't write text: you give them a text and a set of typed questions, and they return a probability for each answer in a single pass. This models could be useful whenever you need a quick decision instead of generated text.They answer typed questions in milliseconds, with a probability attached to each answer.That makes them cheap to run at high volume and easy to automate, because you can act on thresholds without parsing any text. They’re not for writing, explaining, or multi-step reasoning, and the small ones should be validated on your own data first.
 
 ## How it works
 
